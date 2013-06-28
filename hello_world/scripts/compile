@@ -1,1 +1,2 @@
+mkdir bin
 javac -d bin -sourcepath src/main/java/ -classpath libs/greeter.jar src/main/java/com/panda/helloworld/HelloWorld.java
