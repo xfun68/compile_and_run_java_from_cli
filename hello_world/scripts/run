@@ -1,1 +1,1 @@
-java -classpath bin:libs/greeter.jar:libs/person.jar com.panda.helloworld.HelloWorld
+java -classpath bin:libs/greeter.jar:libs/person.jar com.panda.helloworld.Main
