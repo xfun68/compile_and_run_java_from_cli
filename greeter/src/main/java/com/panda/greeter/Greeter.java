@@ -1,4 +1,4 @@
-package com.panda.helloworld;
+package com.panda.greeter;
 
 class Greeter {
   public String greet() {
