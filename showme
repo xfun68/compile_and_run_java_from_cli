@@ -2,7 +2,10 @@
 
 git clean -fdx
 
+cd person && gradle jar && cd .. && \
+cp -f person/build/libs/*.jar greeter/libs && \
+cp -f person/build/libs/*.jar hello_world/libs && \
 cd greeter && gradle jar && cd .. && \
-cp -f greeter/build/libs/greeter.jar hello_world/libs && \
+cp -f greeter/build/libs/*.jar hello_world/libs && \
 cd hello_world && ./scripts/compile && ./scripts/run && cd ..
 
