@@ -1,0 +1,1 @@
+java -classpath bin:libs/greeter.jar com.panda.helloworld.HelloWorld
