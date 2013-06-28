@@ -1,0 +1,8 @@
+#!/bin/sh
+
+git clean -fdx
+
+cd greeter && gradle jar && cd .. && \
+cp -f greeter/build/libs/greeter.jar hello_world/libs && \
+cd hello_world && ./scripts/compile && ./scripts/run && cd ..
+
